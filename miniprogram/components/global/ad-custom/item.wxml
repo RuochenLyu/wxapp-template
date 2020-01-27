@@ -1,0 +1,4 @@
+<block wx:if="{{shown}}">
+  <ad wx:if="{{isQQ}}" unit-id="{{unitId}}" ad-type="{{type}}" ad-theme="{{theme}}" binderror="hideAd" />
+  <ad wx:else unit-id="{{unitId}}" type="{{type}}" binderror="hideAd" />
+</block>

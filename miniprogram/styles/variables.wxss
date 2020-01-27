@@ -1,0 +1,20 @@
+page {
+  --color-ui: #44acb6;
+  --color-ui-light: #f4f7ed;
+
+  --color-text-default: #000;
+  --color-text-light: #555;
+  --color-text-lighter: #777;
+  --color-text-lightest: #999;
+
+  --color-border-default: #cccccc;
+  --color-border-light: #e3e3e3;
+  --color-border-lighter: #efefef;
+
+  --font-size-xx-large: 24px;
+  --font-size-x-large: 20px;
+  --font-size-large: 18px;
+  --font-size-medium: 16px;
+  --font-size-small: 14px;
+  --font-size-x-small: 12px;
+}

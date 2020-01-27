@@ -1,0 +1,20 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundColorTop": "#fff",
+    "backgroundColorBottom": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": ""
+  },
+  "usingComponents": {
+    "ad-custom": "/components/global/ad-custom/item"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "networkTimeout": {
+    "request": 10000
+  }
+}
