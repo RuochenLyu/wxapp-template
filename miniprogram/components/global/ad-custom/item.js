@@ -4,27 +4,27 @@ Component({
 
     type: {
       type: String,
-      value: "banner"
+      value: 'banner',
     },
 
     theme: String,
 
     isQQ: {
       type: Boolean,
-      value: false
-    }
+      value: false,
+    },
   },
 
   data: {
     shown: {
       type: Boolean,
-      value: false
-    }
+      value: false,
+    },
   },
 
   methods: {
     hideAd() {
       this.setData({ shown: false });
-    }
-  }
+    },
+  },
 });
