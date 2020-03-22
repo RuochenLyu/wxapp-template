@@ -1,12 +1,22 @@
 module.exports = {
-  extends: ["airbnb-base", "plugin:prettier/recommended"],
-  plugins: ["prettier"],
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: ['airbnb-base'],
   globals: {
-    App: "readonly",
-    Component: "readonly",
-    getApp: "readonly",
-    getCurrentPages: "readonly",
-    Page: "readonly",
-    wx: "readonly"
-  }
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+    App: 'readonly',
+    Component: 'readonly',
+    getApp: 'readonly',
+    getCurrentPages: 'readonly',
+    Page: 'readonly',
+    wx: 'readonly',
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+  },
+  rules: {},
 };

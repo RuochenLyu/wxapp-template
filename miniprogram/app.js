@@ -1,4 +1,4 @@
-import { checkUpdate } from "./utils/utils";
+import { checkUpdate } from './utils/utils';
 
 App({
   onLaunch() {
@@ -6,8 +6,8 @@ App({
     this.getSystemInfo();
 
     wx.cloud.init({
-      env: "my-env-id", // 开通云开发
-      traceUser: true
+      env: 'my-env-id', // 开通云开发
+      traceUser: true,
     });
   },
 
@@ -15,11 +15,10 @@ App({
     const systemInfo = wx.getSystemInfoSync();
     this.systemInfo = {};
 
-    this.systemInfo.isQQ = systemInfo.AppPlatform === "qq";
-    this.systemInfo.isIPhoneX =
-      systemInfo.model.includes("iPhone X") ||
-      systemInfo.model.includes("iPhone11");
-    this.systemInfo.isAndroid = systemInfo.platform === "android";
+    this.systemInfo.isQQ = systemInfo.AppPlatform === 'qq';
+    this.systemInfo.isIPhoneX = systemInfo.model.includes('iPhone X')
+      || systemInfo.model.includes('iPhone11');
+    this.systemInfo.isAndroid = systemInfo.platform === 'android';
     this.systemInfo.statusBarHeight = systemInfo.statusBarHeight;
-  }
+  },
 });
