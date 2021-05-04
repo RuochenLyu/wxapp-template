@@ -1,6 +1,11 @@
 const {
-  isQQ, isIPhoneX, isAndroid, statusBarHeight,
-} = getApp().systemInfo;
+  isAndroid,
+  isIPhoneX,
+  isQQ,
+  statusBarHeight,
+  systemInfo,
+} = getApp().globalData;
+
 export {
-  isQQ, isIPhoneX, isAndroid, statusBarHeight,
+  isAndroid, isIPhoneX, isQQ, statusBarHeight, systemInfo,
 };

@@ -11,7 +11,7 @@
 	},
 	"appid": "",
 	"projectname": "template_wxapp",
-	"libVersion": "2.10.1",
+	"libVersion": "2.16.0",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

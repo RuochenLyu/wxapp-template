@@ -10,7 +10,7 @@
     "navigationBarTitleText": ""
   },
   "usingComponents": {
-    "ad-custom": "/components/global/ad-custom/item"
+    "skeleton": "/components/global/skeleton/item"
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",

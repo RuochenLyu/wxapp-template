@@ -1,0 +1,7 @@
+<view class="skeleton">
+  <view
+    class="skeleton-{{ variant }}"
+    style="{{ width ? 'width:' + width + ';' : '' }}{{height ? 'height:' + height + ';' : ''}}"
+  >
+  </view>
+</view>
