@@ -1,11 +1,7 @@
-const {
-  isAndroid,
-  isIPhoneX,
-  isQQ,
-  statusBarHeight,
-  systemInfo,
-} = getApp().globalData;
+
+const { isIOS, isAndroid, statusBarHeight } = getApp().systemInfo;
+const navBarHeight = '88rpx';
 
 export {
-  isAndroid, isIPhoneX, isQQ, statusBarHeight, systemInfo,
+  isAndroid, isIOS, navBarHeight, statusBarHeight,
 };

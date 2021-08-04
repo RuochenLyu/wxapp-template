@@ -1,9 +1,9 @@
-import { isIPhoneX } from '../../utils/system-info';
+import { statusBarHeight } from '../../utils/system-info';
 
 Page({
   data: {},
 
   onLoad() {
-    console.log(isIPhoneX);
+    console.log(statusBarHeight);
   },
 });

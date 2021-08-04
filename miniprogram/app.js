@@ -13,12 +13,10 @@ App({
 
   getSystemInfo() {
     const systemInfo = wx.getSystemInfoSync();
-    this.systemInfo = {};
-
-    this.systemInfo.isQQ = systemInfo.AppPlatform === 'qq';
-    this.systemInfo.isIPhoneX = systemInfo.model.includes('iPhone X')
-      || systemInfo.model.includes('iPhone11');
-    this.systemInfo.isAndroid = systemInfo.platform === 'android';
-    this.systemInfo.statusBarHeight = systemInfo.statusBarHeight;
+    this.systemInfo = {
+      isIOS: /ios/i.test(systemInfo.platform),
+      isAndroid: /android/i.test(systemInfo.platform),
+      statusBarHeight: systemInfo.statusBarHeight,
+    };
   },
 });
